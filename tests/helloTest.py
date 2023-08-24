@@ -9,8 +9,9 @@ class TestMain(unittest.TestCase):
     @patch('csv.reader')
     def test_hello_user_with_csv(self, mock_csv_reader, mock_open):
         firstName = 'Alice'
-        response = helloUser(firstName)
-        expected = 'Hi Alice'
+        lastName = 'Wonder'
+        response = helloUser(firstName,lastName)
+        expected = 'Hi Alice Wonder'
         self.assertEqual(response, expected)
 
 if __name__ == '__main__':
