@@ -3,4 +3,4 @@ import main
 
 def getIncome(name, salary):
     response = name + " gets " + salary
-    return response
+return response
