@@ -1,6 +1,6 @@
 import csv
 import main
 
-def getSalary(name, salary):
+def getIncome(name, salary):
     response = name + " gets " + salary
-    return response
+return response
