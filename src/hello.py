@@ -5,4 +5,5 @@ import main
 
 def helloUser(firstName, lastname):
     fullName = firstName + " " + lastname
-return main.print_hi(fullName121)
+    print("121")
+return main.print_hi(fullName)
