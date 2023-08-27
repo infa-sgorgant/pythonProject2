@@ -11,7 +11,7 @@ class TestMain(unittest.TestCase):
         firstName = 'Alice'
         lastName = 'Wonder'
         response = helloUser(firstName,lastName)
-        expected = 'Hi Alice Wonder2'
+        expected = 'Hi Alice Wonder'
         self.assertEqual(response, expected)
 
 if __name__ == '__main__':
